@@ -13,3 +13,6 @@ def index():
         "priceDesign" : "50"
     }
     return render_template("index.html", information = information)
+
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=5000)
